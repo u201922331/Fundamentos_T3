@@ -1,0 +1,36 @@
+﻿  main.cpp
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\resources\SpriteBacth.inl(12,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\resources\SpriteBacth.inl(41,22): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\resources\SpriteBacth.inl(69,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\engine\IOManager.inl(11,15): warning C4244: 'inicializando': conversión de 'std::streamoff' a 'int'; posible pérdida de datos
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\engine\IOManager.inl(14,24): warning C4244: '-=': conversión de 'std::streamoff' a 'int'; posible pérdida de datos
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\resources\ImageLoader.inl(30,19): warning C4244: '=': conversión de 'unsigned long' a 'float'; posible pérdida de datos
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\resources\ImageLoader.inl(31,18): warning C4244: '=': conversión de 'unsigned long' a 'float'; posible pérdida de datos
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\engine\Level.inl(32,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\engine\Level.inl(34,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\engine\Level.inl(58,27): warning C4244: '=': conversión de 'int' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\engine\Level.inl(59,27): warning C4244: '=': conversión de 'int' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\world\Agent.inl(40,25): warning C4244: 'argumento': conversión de 'T' a 'const unsigned int'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\world\Agent.inl(40,38): warning C4244: 'argumento': conversión de 'T' a 'const unsigned int'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\world\Human.inl(15,39): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\MainGame.inl(21,32): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\MainGame.inl(29,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\MainGame.inl(94,61): warning C4244: 'argumento': conversión de 'Sint32' a 'float'; posible pérdida de datos
+C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\headers\MainGame.inl(94,46): warning C4244: 'argumento': conversión de 'Sint32' a 'float'; posible pérdida de datos
+  Fundamentos_2.vcxproj -> C:\Users\Usuario\OneDrive\Desktop\Fundamentos_2\Debug\Fundamentos_2.exe
