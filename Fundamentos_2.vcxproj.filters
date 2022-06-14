@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos\layouts">
+      <UniqueIdentifier>{aca4f645-56b9-41cb-8d4c-7abd45554672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\textures">
+      <UniqueIdentifier>{90934bd0-2bbc-4af6-a904-2a3a83cac0b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\shaders">
+      <UniqueIdentifier>{3ca8b8f2-c203-46da-907f-9e201c1e594c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\engine">
+      <UniqueIdentifier>{b227e927-c575-4a49-8ff8-fc99e33b5eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\models">
+      <UniqueIdentifier>{69e174a1-52ea-4423-81bc-7dd79af404c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\world">
+      <UniqueIdentifier>{ca5baa82-7ece-4850-b915-4d1f26ab11f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\utils">
+      <UniqueIdentifier>{7ef3c1c5-29da-422f-9b9d-e07fd6555f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\resources">
+      <UniqueIdentifier>{8816a91c-3724-4cef-9dff-8a8007da3e7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\layouts\level1.txt">
+      <Filter>Archivos de recursos\layouts</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\color.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\color.vert">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="headers\utils\GLS_Program.inl">
+      <Filter>Archivos de encabezado\utils</Filter>
+    </None>
+    <None Include="headers\utils\Error.inl">
+      <Filter>Archivos de encabezado\utils</Filter>
+    </None>
+    <None Include="headers\utils\picoPNG.inl">
+      <Filter>Archivos de encabezado\utils</Filter>
+    </None>
+    <None Include="headers\engine\Window.inl">
+      <Filter>Archivos de encabezado\engine</Filter>
+    </None>
+    <None Include="headers\world\Camera2D.inl">
+      <Filter>Archivos de encabezado\world</Filter>
+    </None>
+    <None Include="headers\resources\SpriteBacth.inl">
+      <Filter>Archivos de encabezado\resources</Filter>
+    </None>
+    <None Include="headers\engine\InputManager.inl">
+      <Filter>Archivos de encabezado\engine</Filter>
+    </None>
+    <None Include="headers\engine\Level.inl">
+      <Filter>Archivos de encabezado\engine</Filter>
+    </None>
+    <None Include="headers\resources\ResourceManager.inl">
+      <Filter>Archivos de encabezado\resources</Filter>
+    </None>
+    <None Include="headers\world\Player.inl">
+      <Filter>Archivos de encabezado\world</Filter>
+    </None>
+    <None Include="headers\world\Human.inl">
+      <Filter>Archivos de encabezado\world</Filter>
+    </None>
+    <None Include="headers\world\Agent.inl">
+      <Filter>Archivos de encabezado\world</Filter>
+    </None>
+    <None Include="headers\engine\Engine.inl">
+      <Filter>Archivos de encabezado\engine</Filter>
+    </None>
+    <None Include="headers\engine\IOManager.inl">
+      <Filter>Archivos de encabezado\engine</Filter>
+    </None>
+    <None Include="headers\engine\PapuEngine.inl">
+      <Filter>Archivos de encabezado\engine</Filter>
+    </None>
+    <None Include="headers\resources\ImageLoader.inl">
+      <Filter>Archivos de encabezado\resources</Filter>
+    </None>
+    <None Include="headers\resources\TextureCache.inl">
+      <Filter>Archivos de encabezado\resources</Filter>
+    </None>
+    <None Include="headers\world\Zombie.inl">
+      <Filter>Archivos de encabezado\world</Filter>
+    </None>
+    <None Include="headers\world\Sprite.inl">
+      <Filter>Archivos de encabezado\world</Filter>
+    </None>
+    <None Include="headers\MainGame.inl">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="glew32.dll">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="SDL2.dll">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\red_bricks.png">
+      <Filter>Archivos de recursos\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\circle.png">
+      <Filter>Archivos de recursos\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\glass.png">
+      <Filter>Archivos de recursos\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\light_bricks.png">
+      <Filter>Archivos de recursos\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\Paper_Mario_.png">
+      <Filter>Archivos de recursos\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\models\Vertex.h">
+      <Filter>Archivos de encabezado\models</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\pch.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\utils\GLS_Program.h">
+      <Filter>Archivos de encabezado\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\utils\Error.h">
+      <Filter>Archivos de encabezado\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\utils\picoPNG.h">
+      <Filter>Archivos de encabezado\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\Window.h">
+      <Filter>Archivos de encabezado\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\world\Camera2D.h">
+      <Filter>Archivos de encabezado\world</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\resources\SpriteBacth.h">
+      <Filter>Archivos de encabezado\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\InputManager.h">
+      <Filter>Archivos de encabezado\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\Level.h">
+      <Filter>Archivos de encabezado\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\resources\ResourceManager.h">
+      <Filter>Archivos de encabezado\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\world\Player.h">
+      <Filter>Archivos de encabezado\world</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\world\Human.h">
+      <Filter>Archivos de encabezado\world</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\world\Agent.h">
+      <Filter>Archivos de encabezado\world</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\Engine.h">
+      <Filter>Archivos de encabezado\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\IOManager.h">
+      <Filter>Archivos de encabezado\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\engine\PapuEngine.h">
+      <Filter>Archivos de encabezado\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\resources\ImageLoader.h">
+      <Filter>Archivos de encabezado\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\resources\TextureCache.h">
+      <Filter>Archivos de encabezado\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\world\Zombie.h">
+      <Filter>Archivos de encabezado\world</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\world\Sprite.h">
+      <Filter>Archivos de encabezado\world</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\models\GLTexture.h">
+      <Filter>Archivos de encabezado\models</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MainGame.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
